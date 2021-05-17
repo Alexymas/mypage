@@ -8,6 +8,7 @@
 
 .carousel-title{
     color: white;
+    height: 90%;
     width: 40%;
     text-align: center;
     font-size: 30px;
@@ -15,19 +16,19 @@
 }
 
 .slide-container{
-    height: 80%;
+    height: 60%;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
 }
 
-.slide-container > img{
+.images {
     object-fit: contain;
     transition: all 0.2s ease-in-out;
 }
 
-.slide-container:hover > img{
+.images:hover {
     transform: scale(1.2);
     opacity: 0.7;
 }
@@ -67,13 +68,7 @@
 .BrainhubCarousel__arrows:hover > span{
     border-color: black !important;
 }
-.reficons{
-    color: white
-}
-.reficons:hover{
-    color:rgb(240, 105, 85);
-    transition: all 0.5s ease-out;
-}
+
 
 @media only screen and (max-width: 960px){
     .carousel-container{

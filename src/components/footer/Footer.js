@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { FaLinkedin, FaWhatsappSquare, FaFacebookSquare, FaGithubSquare } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -18,10 +19,10 @@ const Footer = () => {
                     Design by Alejandro Sibaja
                 </div>
                 <div className="sns-links">
-                    <a rel="noreferrer" href="https://www.linkedin.com/in/jes%C3%BAs-alejandro-sibaja-vega-b80119207/"  className="linkedin"></a>
-                    <a rel="noreferrer" href="https://wa.me/+5216623452932"  className="whatsapp"></a>
-                    <a rel="noreferrer" href="http://m.me/jesusalejandro.sibajavega.71" className="facebook"></a>
-                    <a rel="noreferrer" href="https://github.com/Alexymas"  className="github"></a>
+                    <a rel="noreferrer" href="https://www.linkedin.com/in/jes%C3%BAs-alejandro-sibaja-vega-b80119207/" target="_blank" className="linkedin"><FaLinkedin /></a>
+                    <a rel="noreferrer" href="https://wa.me/+521663865886" target="_blank" className="whatsapp"><FaWhatsappSquare /></a>
+                    <a rel="noreferrer" href="http://m.me/jesusalejandro.sibajavega.71" target="_blank" className="facebook"><FaFacebookSquare /></a>
+                    <a rel="noreferrer" href="https://github.com/Alexymas" target="_blank" className="github"><FaGithubSquare /></a>
                 </div>
             </div>
         </footer>
